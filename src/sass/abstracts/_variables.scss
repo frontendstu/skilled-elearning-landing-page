@@ -70,4 +70,20 @@
   --btn-leading: var(--leading-200);
   --btn-color: hsl(var(--color-neutral-100));
   --btn-padding: 1.125rem 2rem;
+
+  // Button Themes
+  --btn-default-bg: hsl(var(--color-neutral-800));
+  --btn-default-bg-active: hsl(var(--color-secondary));
+
+  --btn-primary-bg: var(--color-gradient-primary);
+  --btn-primary-bg-acive: linear-gradient(
+    hsla(var(--color-gradient-primary-start), 0.5),
+    hsla(var(--color-gradient-primary-end), 0.5)
+  );
+
+  --btn-secondary-bg: var(--color-gradient-secondary);
+  --btn-secondary-bg-active: linear-gradient(
+    hsla(var(--color-gradient-secondary-start), 0.5),
+    hsla(var(--color-gradient-secondary-end))
+  );
 }
