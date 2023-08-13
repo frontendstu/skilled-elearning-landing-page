@@ -26,4 +26,11 @@
       $btn-bg-active: var(--btn-primary-bg-active)
     );
   }
+
+  &[data-btn-theme='secondary'] {
+    @include abstract.btn-theme(
+      $btn-bg: var(--btn-secondary-bg),
+      $btn-bg-active: var(--btn-secondary-bg-active)
+    );
+  }
 }
