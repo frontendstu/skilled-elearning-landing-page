@@ -12,4 +12,11 @@
   @include abstract.hover-focus-within {
     color: var(--btn-color);
   }
+
+  &[data-btn-theme='default'] {
+    @include abstract.btn-theme(
+      $btn-bg: var(--btn-default-bg),
+      $btn-bg-active: var(--btn-default-bg-active)
+    );
+  }
 }
