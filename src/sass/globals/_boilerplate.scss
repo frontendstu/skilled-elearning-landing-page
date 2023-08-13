@@ -5,3 +5,14 @@ body {
   line-height: var(--copy-leading);
   color: var(--copy-color);
 }
+
+a {
+  text-decoration: var(--link-text-decoration);
+  font-weight: var(--link-fw);
+  color: var(--link-color);
+  transition: var(--link-transition);
+
+  @include abstract.hover-focus {
+    color: var(--link-color-active);
+  }
+}
