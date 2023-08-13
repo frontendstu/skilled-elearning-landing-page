@@ -9,16 +9,16 @@
   --color-secondary: 234, 25%, 52%;
   --color-gradient-primary-start: 322, 87%, 55%;
   --color-gradient-primary-end: 13, 100%, 64%;
-  --color-gradient-btn-start: 237, 100%, 64%;
-  --color-gradient-btn-end: 322, 87%, 55%;
+  --color-gradient-secondary-start: 237, 100%, 64%;
+  --color-gradient-secondary-end: 322, 87%, 55%;
 
   --color-gradient-primary: linear-gradient(
     hsl(var(--color-gradient-primary-start)),
     hsl(var(--color-gradient-primary-end))
   );
-  --color-gradient-btn: linear-gradient(
-    hsl(var(--color-gradient-btn-start)),
-    hsl(var(--color-gradient-btn-end))
+  --color-gradient-secondary: linear-gradient(
+    hsl(var(--color-gradient-secondary-start)),
+    hsl(var(--color-gradient-secondary-end))
   );
 
   // Fonts
