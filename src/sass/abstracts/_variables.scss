@@ -109,6 +109,25 @@
     --hero-content-heading-leading: var(--leading-700);
   }
 
+  // Hero Image
+  --hero-img-url: url('../assets/images/image-hero-mobile@2x.png');
+  --hero-margin-top: 2.875rem;
+  --hero-img-width: 20.4375rem;
+  --hero-img-height: 18.8125rem;
+
+  @media (min-width: 48em) {
+    --hero-img-url: url('../assets/images/image-hero-tablet@2x.png');
+    --hero-margin-top: 0;
+    --hero-img-width: 40rem;
+    --hero-img-height: var(--hero-img-width);
+  }
+
+  @media (min-width: 90em) {
+    --hero-img-url: url('../assets/images/image-hero-desktop@2x.png');
+    --hero-img-width: 61.9375rem;
+    --hero-img-height: 58.5rem;
+  }
+
   // Wrapper
   --wrapper-max-width: 21.4375rem;
 
