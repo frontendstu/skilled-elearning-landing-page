@@ -97,4 +97,11 @@
   @media (min-width: 90em) {
     --wrapper-max-width: 69.375rem;
   }
+
+  // Header
+  --header-margin-top: 1rem;
+
+  @media (min-width: 48em) {
+    --header-margin-top: 1.5rem;
+  }
 }
