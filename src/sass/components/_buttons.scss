@@ -19,4 +19,11 @@
       $btn-bg-active: var(--btn-default-bg-active)
     );
   }
+
+  &[data-btn-theme='primary'] {
+    @include abstract.btn-theme(
+      $btn-bg: var(--btn-primary-bg),
+      $btn-bg-active: var(--btn-primary-bg-active)
+    );
+  }
 }
