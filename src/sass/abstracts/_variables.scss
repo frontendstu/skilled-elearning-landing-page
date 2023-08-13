@@ -52,14 +52,13 @@
   --heading-color: hsl(var(--color-neutral-800));
 
   // Copy
-  --copy-fw: var(--fw-bold);
+  --copy-fw: var(--fw-medium);
   --copy-fs: var(--fs-100);
   --copy-ff: var(--ff-primary);
   --copy-leading: var(--leading-200);
   --copy-color: hsl(var(--color-neutral-400));
 
   @media (min-width: 48em) {
-    --copy-fw: var(--fw-medium);
     --copy-fs: var(--fs-200);
   }
 
