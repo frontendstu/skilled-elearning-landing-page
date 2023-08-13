@@ -77,7 +77,7 @@
   --btn-default-bg-active: hsl(var(--color-secondary));
 
   --btn-primary-bg: var(--color-gradient-primary);
-  --btn-primary-bg-acive: linear-gradient(
+  --btn-primary-bg-active: linear-gradient(
     hsla(var(--color-gradient-primary-start), 0.5),
     hsla(var(--color-gradient-primary-end), 0.5)
   );
@@ -85,6 +85,6 @@
   --btn-secondary-bg: var(--color-gradient-secondary);
   --btn-secondary-bg-active: linear-gradient(
     hsla(var(--color-gradient-secondary-start), 0.5),
-    hsla(var(--color-gradient-secondary-end))
+    hsla(var(--color-gradient-secondary-end), 0.5)
   );
 }
