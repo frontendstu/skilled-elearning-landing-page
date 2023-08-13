@@ -1,4 +1,6 @@
 .hero {
+  position: relative;
+
   &__content {
     font-size: var(--hero-content-fs);
     margin-top: var(--hero-content-margin-top);
@@ -10,6 +12,23 @@
     .heading {
       font-size: var(--hero-content-heading-fs);
       line-height: var(--hero-content-heading-leading);
+    }
+  }
+
+  &__img {
+    margin-top: var(--hero-margin-top);
+    background-image: var(--hero-img-url);
+    background-size: cover;
+    width: var(--hero-img-width);
+    height: var(--hero-img-height);
+
+    @media (min-width: 48em) {
+      position: absolute;
+      inset: -16rem auto auto 22rem;
+    }
+
+    @media (min-width: 90em) {
+      inset: -22rem auto auto 40rem;
     }
   }
 }
