@@ -16,6 +16,7 @@
   }
 
   &__img {
+    z-index: -999;
     margin-top: var(--hero-margin-top);
     background-image: var(--hero-img-url);
     background-size: cover;
