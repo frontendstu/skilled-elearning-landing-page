@@ -20,4 +20,16 @@
     hsl(var(--color-gradient-btn-start)),
     hsl(var(--color-gradient-btn-end))
   );
+
+  // Fonts
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fs-100: 1rem; // 16px
+  --fs-200: 1.125rem; // 18px
+  --fs-300: 1.5rem; // 24px
+  --fs-400: 2rem; // 32px
+  --fs-500: 2.5rem; // 40px
+  --fs-600: 3.5rem; // 56px
+  --ff-primary: 'Plus Jakarta Sans', sans-serif;
 }
