@@ -44,4 +44,9 @@
   --link-color: hsl(var(--color-primary-500));
   --link-color-active: hsl(var(--color-primary-300));
   --link-transition: 200ms ease-in-out all;
+
+  // Headings
+  --heading-fw: var(--fw-extrabold);
+  --heading-ff: var(--ff-primary);
+  --heading-color: hsl(var(--color-neutral-800));
 }
