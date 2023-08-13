@@ -11,6 +11,8 @@
   --color-gradient-primary-end: 13, 100%, 64%;
   --color-gradient-secondary-start: 237, 100%, 64%;
   --color-gradient-secondary-end: 322, 87%, 55%;
+  --color-gradient-body-start: hsl(var(--color-neutral-100));
+  --color-gradient-body-end: hsl(var(--color-neutral-200));
 
   --color-gradient-primary: linear-gradient(
     hsl(var(--color-gradient-primary-start)),
@@ -19,6 +21,11 @@
   --color-gradient-secondary: linear-gradient(
     hsl(var(--color-gradient-secondary-start)),
     hsl(var(--color-gradient-secondary-end))
+  );
+
+  --color-gradient-body: linear-gradient(
+    var(--color-gradient-body-start),
+    var(--color-gradient-body-end)
   );
 
   // Fonts
