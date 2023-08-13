@@ -87,6 +87,28 @@
     hsla(var(--color-gradient-secondary-end), 0.5)
   );
 
+  // Hero Content
+  --hero-content-fs: var(--fs-100);
+  --hero-content-margin-top: 2.375rem;
+  --hero-content-gap: 1.5rem;
+  --hero-content-heading-fs: var(--fs-500);
+  --hero-content-heading-leading: var(--leading-500);
+  --hero-content-max-width: var(--wrapper-max-width);
+
+  @media (min-width: 48em) {
+    --hero-content-margin-top: 6.1875rem;
+    --hero-content-max-width: 24.875rem;
+    --hero-content-gap: 1.875rem;
+  }
+
+  @media (min-width: 90em) {
+    --hero-content-fs: var(--fs-200);
+    --hero-margin-top: 11.125rem;
+    --hero-content-max-width: 28.5625rem;
+    --hero-content-heading-fs: var(--fs-600);
+    --hero-content-heading-leading: var(--leading-700);
+  }
+
   // Wrapper
   --wrapper-max-width: 21.4375rem;
 
