@@ -87,6 +87,13 @@
     hsla(var(--color-gradient-secondary-end), 0.5)
   );
 
+  // Hero
+  --hero-margin-top: 2.375rem;
+
+  @media (min-width: 48em) {
+    --hero-margin-top: 0;
+  }
+
   // Wrapper
   --wrapper-max-width: 21.4375rem;
 
