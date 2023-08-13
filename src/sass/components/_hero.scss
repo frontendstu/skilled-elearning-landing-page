@@ -1,0 +1,15 @@
+.hero {
+  &__content {
+    font-size: var(--hero-content-fs);
+    margin-top: var(--hero-content-margin-top);
+    display: flex;
+    flex-direction: column;
+    gap: var(--hero-content-gap);
+    max-width: var(--hero-content-max-width);
+
+    .heading {
+      font-size: var(--hero-content-heading-fs);
+      line-height: var(--hero-content-heading-leading);
+    }
+  }
+}
