@@ -87,3 +87,12 @@
     src: url(#{$font-path});
   }
 }
+
+// Button Theme
+@mixin btn-theme($btn-bg, $btn-bg-active) {
+  background: $btn-bg;
+
+  @include hover-focus-within {
+    background: $btn-bg-active;
+  }
+}
