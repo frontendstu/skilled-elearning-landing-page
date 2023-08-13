@@ -49,4 +49,16 @@
   --heading-fw: var(--fw-extrabold);
   --heading-ff: var(--ff-primary);
   --heading-color: hsl(var(--color-neutral-800));
+
+  // Copy
+  --copy-fw: var(--fw-bold);
+  --copy-fs: var(--fs-100);
+  --copy-ff: var(--ff-primary);
+  --copy-leading: var(--leading-200);
+  --copy-color: var(--color-neutral-400);
+
+  @media (min-width: 48em) {
+    --copy-fw: var(--fw-medium);
+    --copy-fs: var(--fs-200);
+  }
 }
