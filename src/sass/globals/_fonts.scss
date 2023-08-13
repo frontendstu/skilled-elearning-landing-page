@@ -1,1 +1,9 @@
 @use '../abstracts' as abstract;
+
+// Plus Jakarta Sans
+@include abstract.font-face(
+  $font-family: 'Plus Jakarta Sans',
+  $font-path:
+    '../assets/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf',
+  $font-weight: 500 800
+);
