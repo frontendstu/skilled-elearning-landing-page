@@ -87,4 +87,15 @@
     hsla(var(--color-gradient-secondary-start), 0.5),
     hsla(var(--color-gradient-secondary-end), 0.5)
   );
+
+  // Wrapper
+  --wrapper-max-width: 21.4375rem;
+
+  @media (min-width: 48em) {
+    --wrapper-max-width: 43.0625rem;
+  }
+
+  @media (min-width: 90em) {
+    --wrapper-max-width: 69.375rem;
+  }
 }
