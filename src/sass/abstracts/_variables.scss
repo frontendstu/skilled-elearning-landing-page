@@ -1,2 +1,23 @@
 :root {
+  // Colours
+  --color-neutral-100: 0, 0%, 100%;
+  --color-neutral-200: 234, 100%, 97%;
+  --color-neutral-400: 232, 10%, 56%;
+  --color-neutral-800: 233, 54%, 16%;
+  --color-primary-300: 341, 100%, 83%;
+  --color-primary-500: 341, 92%, 62%;
+  --color-secondary: 234, 25%, 52%;
+  --color-gradient-primary-start: 322, 87%, 55%;
+  --color-gradient-primary-end: 13, 100%, 64%;
+  --color-gradient-btn-start: 237, 100%, 64%;
+  --color-gradient-btn-end: 322, 87%, 55%;
+
+  --color-gradient-primary: linear-gradient(
+    hsl(var(--color-gradient-primary-start)),
+    hsl(var(--color-gradient-primary-end))
+  );
+  --color-gradient-btn: linear-gradient(
+    hsl(var(--color-gradient-btn-start)),
+    hsl(var(--color-gradient-btn-end))
+  );
 }
