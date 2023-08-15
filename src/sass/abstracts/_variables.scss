@@ -173,6 +173,7 @@
   --popular-courses-grid-item-padding: 0 1.5rem 2rem;
   --popular-courses-grid-item-gap: 0.5rem;
   --popular-courses-grid-item-icon-transform: translateY(-1.5rem);
+  --popular-courses-grid-item-heading-fs: 1.25rem;
 
   @media (min-width: 48em) {
     --popular-courses-grid-item-padding: 0 1.5rem 2.5rem;
@@ -181,5 +182,6 @@
   @media (min-width: 90em) {
     --popular-courses-grid-item-fs: var(--fs-200);
     --popular-courses-grid-item-padding: 0 1.875rem 2.5rem;
+    --popular-courses-grid-item-heading-fs: var(--fs-300);
   }
 }
