@@ -1,1 +1,15 @@
 @use '../abstracts' as abstract;
+
+footer {
+  background-color: var(--footer-bg);
+  margin-top: var(--footer-margin-top);
+  padding-block: var(--footer-padding-block);
+
+  .footer {
+    @include abstract.flex;
+
+    &__branding {
+      margin-right: auto;
+    }
+  }
+}
