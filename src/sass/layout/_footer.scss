@@ -12,4 +12,20 @@ footer {
       margin-right: auto;
     }
   }
+
+  .attribution {
+    text-align: center;
+    font-size: var(--footer-attribution-fs);
+    color: var(--footer-attribution-color);
+    margin-top: var(--footer-attribution-margin-top);
+
+    a {
+      font-weight: var(--footer-attribution-link-fw);
+      color: var(--footer-attribution-link-color);
+
+      @include abstract.hover-focus {
+        color: var(--footer-attribution-link-color-active);
+      }
+    }
+  }
 }
