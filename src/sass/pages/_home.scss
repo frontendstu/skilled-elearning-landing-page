@@ -1,1 +1,15 @@
 @use '../abstracts' as abstract;
+
+.popular-courses {
+  @include abstract.grid(1, var(--popular-courses-gap));
+
+  margin-top: var(--popular-courses-margin-top);
+
+  @media (min-width: 48em) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 90em) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
