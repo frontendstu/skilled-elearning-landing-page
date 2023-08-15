@@ -165,4 +165,21 @@
     --popular-courses-margin-top: 15rem;
     --popular-courses-gap: 3.5rem 1.875rem;
   }
+
+  // Popular Courses Grid Item
+  --popular-courses-grid-item-fs: var(--fs-100);
+  --popular-courses-grid-item-bg: hsl(var(--color-neutral-100));
+  --popular-courses-grid-item-radius: 15px;
+  --popular-courses-grid-item-padding: 0 1.5rem 2rem;
+  --popular-courses-grid-item-gap: 0.5rem;
+  --popular-courses-grid-item-icon-transform: translateY(-1.5rem);
+
+  @media (min-width: 48em) {
+    --popular-courses-grid-item-padding: 0 1.5rem 2.5rem;
+  }
+
+  @media (min-width: 90em) {
+    --popular-courses-grid-item-fs: var(--fs-200);
+    --popular-courses-grid-item-padding: 0 1.875rem 2.5rem;
+  }
 }
