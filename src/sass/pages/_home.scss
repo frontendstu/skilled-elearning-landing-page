@@ -35,5 +35,16 @@
       margin-top: auto;
       font-size: var(--popular-courses-grid-item-link-fs);
     }
+
+    &-headline {
+      background: var(--popular-courses-grid-item-headline-bg);
+      padding-top: var(--popular-courses-grid-item-padding-top);
+
+      .heading {
+        font-size: var(--popular-courses-grid-item-headline-fs);
+        line-height: var(--popular-courses-grid-item-headline-leading);
+        color: var(--popular-courses-grid-item-headline-color) !important;
+      }
+    }
   }
 }
