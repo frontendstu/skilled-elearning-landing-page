@@ -23,6 +23,10 @@
     justify-content: left;
     align-items: flex-start;
 
+    .heading {
+      font-size: var(--popular-courses-grid-item-heading-fs);
+    }
+
     img {
       transform: var(--popular-courses-grid-item-icon-transform);
     }
