@@ -185,4 +185,15 @@
     --popular-courses-grid-item-padding: 0 1.875rem 2rem;
     --popular-courses-grid-item-heading-fs: var(--fs-300);
   }
+
+  // Popular Courses Grid Item Headline
+  --popular-courses-grid-item-headline-fs: var(--fs-300);
+  --popular-courses-grid-item-headline-color: hsl(var(--color-neutral-100));
+  --popular-courses-grid-item-headline-bg: var(--color-gradient-primary);
+  --popular-courses-grid-item-padding-top: 1.5rem;
+
+  @media (min-width: 90em) {
+    --popular-courses-grid-item-headline-fs: var(--fs-400);
+    --popular-courses-grid-item-headline-leading: var(--leading-400);
+  }
 }
