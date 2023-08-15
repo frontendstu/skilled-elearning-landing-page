@@ -153,6 +153,20 @@
     --header-margin-top: 1.5rem;
   }
 
+  // Footer
+  --footer-bg: hsl(var(--color-neutral-800));
+  --footer-margin-top: 5rem;
+  --footer-padding-block: 2.25rem;
+
+  @media (min-width: 48em) {
+    --footer-margin-top: 5.375rem;
+  }
+
+  @media (min-width: 90em) {
+    --footer-margin-top: 8.75rem;
+    --footer-padding-block: 2rem;
+  }
+
   // Popular Courses Grid
   --popular-courses-gap: 2.5rem;
 
