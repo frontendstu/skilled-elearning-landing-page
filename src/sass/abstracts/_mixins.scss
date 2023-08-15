@@ -64,6 +64,14 @@
   justify-content: center;
 }
 
+// Flexbox: Column
+// Usage: @include mixin.flex-col($gap: ...) { ... }
+@mixin flex-col($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
 // Grid
 // Usage: @include mixin.grid(3, 1.875rem) { ... }
 @mixin grid($columns, $gap) {
