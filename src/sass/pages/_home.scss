@@ -12,4 +12,23 @@
   @media (min-width: 90em) {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  &__item {
+    @include abstract.flex-col($gap: var(--popular-courses-grid-item-gap));
+
+    font-size: var(--popular-courses-grid-item-fs);
+    background-color: var(--popular-courses-grid-item-bg);
+    border-radius: var(--popular-courses-grid-item-radius);
+    padding: var(--popular-courses-grid-item-padding);
+    justify-content: left;
+    align-items: flex-start;
+
+    img {
+      transform: var(--popular-courses-grid-item-icon-transform);
+    }
+
+    a {
+      margin-top: auto;
+    }
+  }
 }
