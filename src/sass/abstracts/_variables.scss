@@ -158,6 +158,14 @@
   --footer-margin-top: 5rem;
   --footer-padding-block: 2.25rem;
 
+  --footer-attribution-fs: 0.875rem;
+  --footer-attribution-color: hsla(var(--color-neutral-100), 0.5);
+  --footer-attribution-margin-top: 1rem;
+
+  --footer-attribution-link-fw: var(--fw-medium);
+  --footer-attribution-link-color: var(--footer-attribution-color);
+  --footer-attribution-link-color-active: var(--link-color);
+
   @media (min-width: 48em) {
     --footer-margin-top: 5.375rem;
   }
