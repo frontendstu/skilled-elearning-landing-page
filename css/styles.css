@@ -273,6 +273,11 @@ a:hover, a:focus {
   color: var(--heading-color);
 }
 
+.hide-overflow {
+  overflow: hidden;
+  position: relative;
+}
+
 .btn {
   font: var(--btn-fw) var(--btn-fs) var(--btn-ff);
   line-height: var(--btn-leading);
